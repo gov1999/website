@@ -1,0 +1,99 @@
+.font-sans {
+  font-family: 'PT Sans', sans-serif;
+}
+.font-play {
+  font-family: 'Playfair Display', serif;
+}
+.font-dance {
+  font-family: 'Dancing Script', cursive;
+}
+.font-great {
+  font-family: 'Great Vibes', cursive;
+}
+.font-tang {
+  font-family: 'Tangerine', cursive;
+}
+.caret-blue {
+  caret-color: blue;
+}
+.text-gradient-orange {
+  background: -webkit-linear-gradient(white, orange);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.text-gradient-purple {
+  background: -webkit-linear-gradient(blue, white, purple);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.text-gradient-grey {
+  background: -webkit-linear-gradient(rgb(20, 20, 20), rgb(200, 200, 200));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+/* navbar */
+#nav-bar {
+  position: sticky;
+  z-index: 10;
+  top: 0;
+}
+.navbar {
+  /* background-image: linear-gradient(to right, #a517ba, #5f1782); */
+  padding: 0 !important;
+}
+.navbar-nav li {
+  padding: 0 10px;
+}
+.navbar-nav li a {
+  color: white !important;
+  font-weight: 600;
+  float: left;
+  text-align: left;
+}
+.fa-bars {
+  color: white;
+}
+.navbar-brand img {
+  height: 40px;
+  padding-left: 10px;
+  opacity: 0.8;
+  border-radius: 50%;
+}
+.company-name {
+  padding-left: 20px;
+  color: white;
+}
+.bg-contact {
+  background-image: url('../../image/contactus.jpg');
+  background-size: cover;
+}
+.bg-contact-whole {
+  background-image: linear-gradient(to right, white, purple);
+}
+.land {
+  background-image: url('../../image/nature.jpg');
+  background-size: cover;
+  opacity: 0.8;
+}
+.login {
+   background-image: url('../../image/pic1.jpg'); 
+  /*background-image: linear-gradient(to right, blue, pink);*/
+  /* background-color: rgba(128, 0, 128, 0.5); */
+  height: 95vh;
+  background-size: cover;
+  opacity: 0.8;
+  /* background-repeat: repeat-x; */
+}
+.bg-login {
+  /* background-image: linear-gradient(to bottom, blue, purple); */
+
+  /* opacity: 0.5; */
+}
+.image-hover:hover {
+  opacity: 0.3;
+  cursor: pointer;
+}
